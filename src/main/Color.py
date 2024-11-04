@@ -32,26 +32,13 @@ class Color:
             channel = 1
         elif self.b > self.r and self.b > self.g:
             channel = 2
-        else:
-            channel = 0
 
         return channel
 
     def predominant_value(self) -> float:
-        channel: float = 0.0
-
-        return channel
-
-    def predominant_chanel(self) -> int:
-        channel: int = 0
-
         if self.r > self.b and self.r > self.g:
-            channel = 0
+            return self.r
         elif self.g > self.r and self.g > self.b:
-            channel = 1
+            return self.g
         elif self.b > self.r and self.b > self.g:
-            channel = 2
-        else:
-            channel = 0
-
-        return channel
+            return self.b

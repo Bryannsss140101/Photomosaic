@@ -1,7 +1,9 @@
-import cv2 as cv
-import numpy as np
-import sys
-import Color as RGB
+#import cv2 as cv
+#import numpy as np
+#import sys
+#import Color as RGB
+
+"""
 
 img = cv.imread("../../img/random.jpg")
 
@@ -20,3 +22,7 @@ color = RGB.Color(avg)
 print(color)
 print(color.predominant_value())
 print(color.predominant_chanel())
+"""
+
+
+print("Hola")
