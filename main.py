@@ -2,7 +2,7 @@ from src.imageloader.ImageLoader import ImageLoader
 from src.coloranalyzer.ColorAnalyzer import ColorAnalyzer
 from src.imageclassifier.ImageClassifier import ImageClassifier
 
-loader: ImageLoader = ImageLoader('img/')
+loader: ImageLoader = ImageLoader('images/')
 analyzer: ColorAnalyzer = ColorAnalyzer()
 classifier: ImageClassifier = ImageClassifier('classifier')
 
