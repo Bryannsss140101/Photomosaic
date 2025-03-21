@@ -1,3 +1,4 @@
+"""
 import shutil
 from pathlib import Path
 
@@ -16,3 +17,4 @@ class ImageClassifier:
         target_folder = self.output_directory / color
         target_path = target_folder / Path(path).name
         shutil.copy(path, target_path)
+"""

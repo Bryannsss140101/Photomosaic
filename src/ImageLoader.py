@@ -1,3 +1,4 @@
+"""
 from pathlib import Path
 
 
@@ -12,3 +13,4 @@ class ImageLoader:
         return [str(img)
                 for img in self.directory.glob('*')
                 if img.suffix.lower() in extensions]
+"""

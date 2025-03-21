@@ -1,6 +1,6 @@
-from src.imageloader.ImageLoader import ImageLoader
-from src.coloranalyzer.ColorAnalyzer import ColorAnalyzer
-from src.imageclassifier.ImageClassifier import ImageClassifier
+from ImageLoader import ImageLoader
+from ColorAnalyzer import ColorAnalyzer
+from ImageClassifier import ImageClassifier
 
 loader: ImageLoader = ImageLoader('images/')
 analyzer: ColorAnalyzer = ColorAnalyzer()

@@ -1,3 +1,4 @@
+"""
 import cv2
 import numpy as np
 
@@ -22,3 +23,4 @@ class ColorAnalyzer:
             return 'green'
         else:
             return 'blue'
+"""
