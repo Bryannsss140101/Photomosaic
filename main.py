@@ -2,8 +2,8 @@ from src.image import *
 from src.classifier import *
 import random
 
-# classifier = Classifier("classifier")
-# classifier.classify("images")
+classifier = Classifier("classifier")
+classifier.classify("images")
 
 
 # -----------
